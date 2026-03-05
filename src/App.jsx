@@ -593,6 +593,12 @@ export default function App() {
   // Load saved theme
   useEffect(()=>{const saved=loadTheme();if(saved&&(saved==="dark"||saved==="light"))setTheme(saved);setThemeLoaded(true);},[]);
 
+  // Update PWA theme-color meta tag when theme changes
+  useEffect(()=>{
+    const meta=document.querySelector('meta[name="theme-color"]');
+    if(meta) meta.setAttribute('content', theme==='dark'?'#0a0907':'#faf6ee');
+  },[theme]);
+
   // Toggle theme with persistence
   const toggleTheme=useCallback(()=>{
     const next=theme==="dark"?"light":"dark";

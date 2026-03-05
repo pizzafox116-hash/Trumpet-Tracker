@@ -4,7 +4,12 @@
       "Bash(npm create vite@latest . -- --template react)",
       "Bash(npm install)",
       "mcp__Claude_Preview__preview_start",
-      "Bash(npm run build)"
+      "Bash(npm run build)",
+      "Bash(ls -la /Users/alantran/Downloads/trumpet-tracker/.gitignore /Users/alantran/Downloads/trumpet-tracker/vercel.json /Users/alantran/Downloads/trumpet-tracker/.env*)",
+      "Bash(npm install -D vite-plugin-pwa)",
+      "Bash(npm install sharp --save-optional)",
+      "Bash(node gen-icons.mjs)",
+      "Bash(npm uninstall sharp)"
     ]
   }
 }

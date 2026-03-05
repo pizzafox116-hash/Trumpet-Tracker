@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="96" fill="#0a0907"/>
+  <!-- Trumpet silhouette -->
+  <g transform="translate(256,256)">
+    <!-- Mouthpiece -->
+    <rect x="-180" y="-12" width="40" height="24" rx="6" fill="#e2a12f"/>
+    <!-- Main tube -->
+    <rect x="-140" y="-10" width="160" height="20" rx="4" fill="#e2a12f"/>
+    <!-- Valve section -->
+    <rect x="20" y="-40" width="16" height="80" rx="4" fill="#e2a12f"/>
+    <rect x="46" y="-44" width="16" height="88" rx="4" fill="#e2a12f"/>
+    <rect x="72" y="-40" width="16" height="80" rx="4" fill="#e2a12f"/>
+    <!-- Valve caps -->
+    <circle cx="28" cy="-44" r="10" fill="#e2a12f"/>
+    <circle cx="54" cy="-48" r="10" fill="#e2a12f"/>
+    <circle cx="80" cy="-44" r="10" fill="#e2a12f"/>
+    <!-- Slide tube under valves -->
+    <rect x="16" y="10" width="76" height="14" rx="4" fill="#e2a12f"/>
+    <!-- Bell section curve -->
+    <path d="M88,-10 Q120,-10 130,-10 Q160,-12 170,-30 Q185,-55 210,-55 Q230,-55 230,0 Q230,55 210,55 Q185,55 170,30 Q160,12 130,10 Q120,10 88,10" fill="none" stroke="#e2a12f" stroke-width="18" stroke-linecap="round"/>
+    <!-- Bell opening -->
+    <ellipse cx="230" cy="0" rx="8" ry="52" fill="#e2a12f" opacity="0.7"/>
+  </g>
+  <!-- App name -->
+  <text x="256" y="420" text-anchor="middle" font-family="Georgia,serif" font-size="52" font-weight="bold" fill="#e2a12f" letter-spacing="4">PRACTICE</text>
+</svg>
